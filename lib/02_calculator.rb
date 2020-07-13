@@ -7,16 +7,7 @@ def subtract (n1, n2)
 end
 
 def sum (ar)
-  if ar.size == 0
-    return 0
-  end
-  i=0
-  nbsum = 0
-  while i < ar.size do
-    nbsum = nbsum + ar[i].to_i
-    i =+ 1
-  end
-  return nbsum
+  return ar.sum
 end
 
 def multiply (n1, n2)
