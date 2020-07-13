@@ -22,5 +22,5 @@ def factorial (n1)
   if n1 == 0
     return 1
   end
-  return (n1.to_i).downto(n2.to_i).inject(:*)
+  return (n1.to_i).downto(1).inject(:*)
 end

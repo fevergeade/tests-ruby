@@ -7,11 +7,11 @@ def shout(str)
 end
 
 def repeat(str, nb = 2)
-  return ([str * nb]).join(" ")
+  return ([str]* nb).join(" ")
 end
 
 def start_of_word(str, nb)
-  return str[0, nb-1]
+  return str[0..nb-1]
 end
 
 def first_word(str)
